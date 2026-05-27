@@ -1,0 +1,6 @@
+version: 1
+cron:
+  - name: "call-cron-endpoint"
+    url: "/cron"
+    schedule: "*/5 * * * *"
+    # runs every 5 minutes; change as you like
